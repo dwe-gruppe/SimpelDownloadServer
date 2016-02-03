@@ -1,0 +1,46 @@
+/* This section manages the container that holds everything - a wrapper div */
+#directorylistingwrapper {width: 99%; margin-left:auto; margin-right:auto; border: 1px solid #cccccc; padding: 9px; background-color:transparent;background-color:;}
+
+/* This section manages the breadcrumbs */
+#breadcrumbs {color: #6699FF;font-family: Arial;font-size:x-small;margin: 0px 0px 8px 8px;}
+#breadcrumbs a, #breadcrumbs a:visited, #breadcrumbs a:link, #breadcrumbs a:active {color: #000000;text-decoration:none;}
+#breadcrumbs a:hover {text-decoration:underline;}
+
+/* This section manages the div that holds the file lists */
+#listingcontainer {background-color:transparent; padding: 10px;}
+
+/* This section manages the container that holds the header labels */
+h6 {color: #6699FF;font-family: Arial;font-weight: bold;font-size: x-small;margin: 0px 0px 10px 8px;padding:0px;}
+#listingheader {color: #476BB3;font-weight:bold;font-family:Arial;font-size:small;text-align:right;display:Show~inline}
+#listingheader a, #listingheader a:active, #listingheader a:visited, #listingheader a:link {text-decoration: none;color: #476BB3;}
+#listingheader a:hover {text-decoration: none;color: #000000;}
+
+/* This section manages the header labels; usually File, Size and Last Modified */
+#headerfile {text-align:left;float: left;width: 50%;}
+#headersize {text-align:right;width: 36%;float: left; }
+
+/* This section manages actual file lists */
+#listing {border: 1px solid #A7C5FF;width:100%}
+#listing a {display:block;padding: 6px 5px 6px 5px;font-size:x-small;color: #476BB3;font-family:Arial;text-decoration:none;text-align:right;}
+#listing a:hover {background-color:#DBE6FE;}
+#listing a img {float:left;margin-right: 4px;}
+#listing a strong {float:left;cursor:hand;cursor:pointer;text-align:left;}
+#listing a em {float:none;color: #000000; width: 75px; text-align:right; cursor:hand; cursor:pointer;display:inline;visibility:}
+#listing a span {position: absolute; margin-left: -40%; margin-top: -2px;}
+#listing a span img {width: 150px; background-color:FFFFFF; visibility: hidden;}
+#listing a:hover span img {border: 1px solid #666666;visibility: visible;}
+.b {background-color: #E9F0FF;}
+.w {background-color: #FFFFFF;}
+.mod {float:right;}
+.size {float:right;}
+
+/* This section manages file uploads */
+#upload {border: 1px solid #A7C5FF;display:block;margin-top: 10px;font-size:small;color: #000000;font-family:Arial;text-decoration:none;width:50%;background-color: transparent;}
+#uploadtitle {background-color: transparent;padding: 6px 5px 6px 5px;border-bottom: 1px solid #A7C5FF;}
+#uploadcontent {    padding: 6px 5px 6px 5px;}
+form {margin: 0;padding: 0;}
+
+/* This section manages the copyright */
+#copy {width: 400px;margin-left:auto;margin-right:auto;text-align:center;font-size:x-small;color: #E1E1E1;font-family:Arial, Helvetica, sans-serif;}
+#copy a {text-decoration: underline;color: #E1E1E1;}
+img {border: 0;}
